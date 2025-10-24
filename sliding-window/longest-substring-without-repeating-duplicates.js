@@ -17,6 +17,7 @@ var lengthOfLongestSubstring = function (s) {
       s.slice(j, i + 1),
       s[i + 1],
     );
+    c;
 
     if (s.slice(j, i + 1).includes(s[i + 1])) {
       // count--;
